@@ -1,8 +1,9 @@
 # Python-Virtualenv-Setup
 
-For setup virtual environment you must need python environment in your OS system.
+
 How to set up a Python development environment :
 ==============================================
+For setup virtual environment you must need python environment in your OS system.
 
 A Python development environment is a folder which you keep your code in, plus a "virtual environment" which lets you install 
 additional library dependencies for that project without those polluting the rest of your desktop/laptop.
@@ -37,19 +38,30 @@ At line:1 char:1
     + FullyQualifiedErrorId : CommandNotFoundException"  
 
 then try this:
-    #To install :
-    pip install --user virtualenv 
-    #To create a virtual environment (venv):
-    python -m virtualenv venv
-    #To activate:
-    -cd venv
-    -cd Scripts
-    -activate.bat
+   #To install :
+    
+     pip install --user virtualenv 
+   
+   #To create a virtual environment (venv):
+     
+     python -m virtualenv venv
+    
+   #To activate:
+     
+     -cd venv
+     
+     -cd Scripts
+      
+     -activate.bat
     #if you get an error on activate.bat then try 
-    .\activate.bat or activate
-    #to deactivate:
-    -deactivate.bat or deactivate
-    #to run venv again just type activate.bat
+     
+     .\activate.bat or activate
+    
+   #to deactivate:
+     
+     -deactivate.bat or deactivate
+    
+   #to run venv again just type activate.bat
 
 
 Once it is activated, any time you run the "python" or "pip" commands it will be running the special custom versions in your venv folder.
