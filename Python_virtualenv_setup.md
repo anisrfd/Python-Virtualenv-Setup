@@ -53,7 +53,8 @@ then try this:
      -cd Scripts
       
      -activate.bat
-    #if you get an error on activate.bat then try 
+   
+   #if you get an error on activate.bat then try 
      
      .\activate.bat or activate
     
@@ -61,7 +62,9 @@ then try this:
      
      -deactivate.bat or deactivate
     
-   #to run venv again just type activate.bat
+   #to run venv again just type
+   
+     -activate.bat or .\activate or activate
 
 
 Once it is activated, any time you run the "python" or "pip" commands it will be running the special custom versions in your venv folder.
