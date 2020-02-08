@@ -1,4 +1,4 @@
-# Python-Virtualenv-Setup
+# Python-Virtual-env-Setup
 
 
 How to set up a Python development environment :
@@ -53,6 +53,14 @@ then try this:
      -cd Scripts
       
      -activate.bat
+   #If get error on VS code shell "source couldn't recognize" then try this: 
+      
+      - open the folder with any gitbash console. for example using visualCode and Gitbash console program: 
+      1)Install Gitbash for  windows 
+      2) using VisualCode IDE, right click over the project open in terminal console option
+      3) on window console in Visualcode, looking for a Select->default shell and change it for Gitbash
+      4)now your project is open with bash console and right path, put source ./Scripts/activate
+      btw : . with blank space = source
    
    #if you get an error on activate.bat then try 
      
